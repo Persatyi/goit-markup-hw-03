@@ -52,16 +52,16 @@ ul {
   color: var(--accent-color);
 }
 
-/* Site navigation */
+/*--------- Site navigation ---------*/
 
 .header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+
   border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
 .main-nav {
-  padding-top: 24px;
-  padding-bottom: 25px;
-
   display: flex;
   align-items: center;
 }
@@ -100,7 +100,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* Contacts */
+/*--------- Contacts ---------*/
 
 .contacts-container {
   margin-left: auto;
@@ -130,7 +130,7 @@ ul {
   color: var(--accent-color);
 }
 
-/* Hero  */
+/*--------- Hero ---------*/
 
 .hero {
   padding-top: 200px;
@@ -157,7 +157,7 @@ ul {
   text-transform: uppercase;
 }
 
-/* Button */
+/*--------- Button ---------*/
 
 .button {
   margin-top: 0;
@@ -192,17 +192,15 @@ ul {
   color: var(--accent-color);
 }
 
-/* Advantagies */
+/*--------- Advantagies ---------*/
 
-.section {
+.features {
   padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .feature-list {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .feature-list .item {
@@ -229,7 +227,12 @@ ul {
   line-height: 1.71;
 }
 
-/* Work examples */
+/*--------- Work examples ---------*/
+
+.examples {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .work-examples {
   display: flex;
@@ -253,14 +256,24 @@ ul {
   display: block;
 }
 
-/* Employees */
+/*--------- Employees ---------*/
+
+.employees-list {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: rgba(245, 244, 250, 1);
+}
 
 .employees {
   display: flex;
-  justify-content: space-between;
+}
+
+.employees .item:not(:first-child) {
+  margin-left: 30px;
 }
 
 .employees .item {
+  background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -294,7 +307,7 @@ ul {
   text-align: center;
 }
 
-/* Footer styles */
+/*--------- Footer styles ---------*/
 
 .footer {
   padding-top: 60px;
@@ -338,7 +351,7 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* Portfolio Styles */
+/*--------- Portfolio Styles ---------*/
 
 .portfolio-main {
   padding-top: 94px;
@@ -353,7 +366,7 @@ ul {
   color: var(--primary-text-color);
 }
 
-/* Filters of the main content */
+/*--------- Filters of the main content ---------*/
 
 .filters {
   display: flex;
@@ -389,7 +402,7 @@ ul {
   cursor: pointer;
 }
 
-/* Main content */
+/*--------- Main content ---------*/
 
 .portfolio-list {
   display: flex;
@@ -406,7 +419,6 @@ ul {
 
 .portfolio-img {
   display: block;
-  background-color: red;
 }
 
 .portfolio-list .link {
