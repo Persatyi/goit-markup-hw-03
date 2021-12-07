@@ -268,8 +268,8 @@ ul {
   display: flex;
 }
 
-.employees .item:not(:first-child) {
-  margin-left: 30px;
+.employees .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .employees .item {
